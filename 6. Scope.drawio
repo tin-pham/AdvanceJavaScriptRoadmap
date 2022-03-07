@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T13:42:52.361Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="2SHa4Z0wvvHdZlVTSSA1" version="16.6.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-03-07T13:45:24.091Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="Dyjp0v_8mqfPgrnUK5I8" version="16.6.6" type="github" pages="7">
   <diagram id="R2a13e9JZ4WAjRa7XBlS" name="Function Invocation">
-    <mxGraphModel dx="1958" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1980" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,7 +43,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XkZyrjLOoKKcB13lSsXg" name="Scope">
-    <mxGraphModel dx="1108" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1130" dy="1768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="-uGLhK4SEO41yFS4EMC--0" />
         <mxCell id="-uGLhK4SEO41yFS4EMC--1" parent="-uGLhK4SEO41yFS4EMC--0" />
@@ -103,7 +103,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zOVHN7mav9M-T2enAev4" name="Function&amp;Block Scope">
-    <mxGraphModel dx="2808" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2830" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="mnLTCmE-tHlSxQGCxvvV-0" />
         <mxCell id="mnLTCmE-tHlSxQGCxvvV-1" parent="mnLTCmE-tHlSxQGCxvvV-0" />
@@ -129,7 +129,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="P_kirkkatRI70OhpSOdf" name="Global Variable">
-    <mxGraphModel dx="1166" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1189" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Q99_xfw0X8nxwH-0CuZ5-0" />
         <mxCell id="Q99_xfw0X8nxwH-0CuZ5-1" parent="Q99_xfw0X8nxwH-0CuZ5-0" />
@@ -170,7 +170,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7IIqPSRhw_NzjskkbxkB" name="IIFE">
-    <mxGraphModel dx="1304" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1329" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="K1soxZ9v4UB44eH87HEM-0" />
         <mxCell id="K1soxZ9v4UB44eH87HEM-1" parent="K1soxZ9v4UB44eH87HEM-0" />
@@ -258,6 +258,9 @@
         </mxCell>
         <mxCell id="Aty1PAXsd_RPo3r4lT5Z-13" value="Lexically bind object that surround the Arrow Function" style="whiteSpace=wrap;html=1;fontSize=30;fontFamily=Comfortaa;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;" vertex="1" parent="DiNu_ZD1jFUa-JN45BCO-1">
           <mxGeometry x="1920" y="900" width="470" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IYzk4pIgicK5SUudAISI-0" value="Save the &#39;this&#39; you want inside another variable" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="DiNu_ZD1jFUa-JN45BCO-1">
+          <mxGeometry x="1497.5" y="1060" width="260" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
