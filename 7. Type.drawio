@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T02:09:40.399Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="H1Ywtbc20VzGY0cEYIOk" version="17.0.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-11T00:22:53.188Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="iNKuX1Dot7hlfRpiMXYv" version="17.1.0" type="github" pages="5">
   <diagram id="rVjcZ1eOST21J0QNa4Qz" name="Everything is Object">
-    <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1130" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -93,168 +93,221 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ttF_B2vLZ2Rh-6PeZTUZ" name="Pass by Value&amp;Reference">
-    <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1130" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="b2LPGF3QorFjGjKCmys3-0" />
         <mxCell id="b2LPGF3QorFjGjKCmys3-1" parent="b2LPGF3QorFjGjKCmys3-0" />
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-0" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="b2LPGF3QorFjGjKCmys3-1">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-0" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="b2LPGF3QorFjGjKCmys3-1" vertex="1">
           <mxGeometry x="590" y="240" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-0">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-0" vertex="1">
           <mxGeometry width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-2" value="a" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-1">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-2" value="a" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-1" vertex="1">
           <mxGeometry width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-3" value="b" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-1">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-3" value="b" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-1" vertex="1">
           <mxGeometry x="60" width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-4" value="c" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-1">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-4" value="c" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-1" vertex="1">
           <mxGeometry x="120" width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-0">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-0" vertex="1">
           <mxGeometry y="40" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-6" value="10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-5">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-6" value="10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-5" vertex="1">
           <mxGeometry width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-7" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-5">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-7" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-5" vertex="1">
           <mxGeometry x="60" width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-8" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-5">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-8" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-5" vertex="1">
           <mxGeometry x="120" width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-13" value="Pass by value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="b2LPGF3QorFjGjKCmys3-1">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-13" value="Pass by value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="b2LPGF3QorFjGjKCmys3-1" vertex="1">
           <mxGeometry x="510" y="190" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-14" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="b2LPGF3QorFjGjKCmys3-1">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-14" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="b2LPGF3QorFjGjKCmys3-1" vertex="1">
           <mxGeometry x="910" y="240" width="230" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-14">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-14" vertex="1">
           <mxGeometry width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-16" value="a" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-15">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-16" value="a" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-15" vertex="1">
           <mxGeometry width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-17" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-15">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-17" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-15" vertex="1">
           <mxGeometry x="60" width="100" height="40" as="geometry">
             <mxRectangle width="100" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-18" value="b" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-15">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-18" value="b" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-15" vertex="1">
           <mxGeometry x="160" width="70" height="40" as="geometry">
             <mxRectangle width="70" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-19" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-14">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-19" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-14" vertex="1">
           <mxGeometry y="40" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-20" value="002" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-19">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-20" value="002" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-19" vertex="1">
           <mxGeometry width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-21" value="[&#39;a&#39;,&#39;b&#39;]" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-19">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-21" value="[&#39;a&#39;,&#39;b&#39;]" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-19" vertex="1">
           <mxGeometry x="60" width="100" height="40" as="geometry">
             <mxRectangle width="100" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-22" value="002" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-19">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-22" value="002" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-19" vertex="1">
           <mxGeometry x="160" width="70" height="40" as="geometry">
             <mxRectangle width="70" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-23" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-14">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-23" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-14" vertex="1">
           <mxGeometry y="80" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-24" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-23">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-24" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-23" vertex="1">
           <mxGeometry width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-25" value="002" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-23">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-25" value="002" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-23" vertex="1">
           <mxGeometry x="60" width="100" height="40" as="geometry">
             <mxRectangle width="100" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-26" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="I9S0OmzloKx8tnWxDKKH-23">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-26" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="I9S0OmzloKx8tnWxDKKH-23" vertex="1">
           <mxGeometry x="160" width="70" height="40" as="geometry">
             <mxRectangle width="70" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I9S0OmzloKx8tnWxDKKH-27" value="Pass by reference" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="b2LPGF3QorFjGjKCmys3-1">
+        <mxCell id="I9S0OmzloKx8tnWxDKKH-27" value="Pass by reference" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" parent="b2LPGF3QorFjGjKCmys3-1" vertex="1">
           <mxGeometry x="850" y="200" width="340" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="9vWCTNvFpaBvPIxFoTVL" name="Shallow &amp; Deep Clone">
-    <mxGraphModel dx="2015" dy="1155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1130" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Ae2msbO1qBCfMG0vu2LC-0" />
         <mxCell id="Ae2msbO1qBCfMG0vu2LC-1" parent="Ae2msbO1qBCfMG0vu2LC-0" />
-        <mxCell id="eJHKQi5sG8lWCjI9zgiu-0" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Ae2msbO1qBCfMG0vu2LC-1" source="eJHKQi5sG8lWCjI9zgiu-2" target="eJHKQi5sG8lWCjI9zgiu-3">
+        <mxCell id="eJHKQi5sG8lWCjI9zgiu-0" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="Ae2msbO1qBCfMG0vu2LC-1" source="eJHKQi5sG8lWCjI9zgiu-2" target="eJHKQi5sG8lWCjI9zgiu-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="230" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eJHKQi5sG8lWCjI9zgiu-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Ae2msbO1qBCfMG0vu2LC-1" source="eJHKQi5sG8lWCjI9zgiu-2" target="eJHKQi5sG8lWCjI9zgiu-4">
+        <mxCell id="eJHKQi5sG8lWCjI9zgiu-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="Ae2msbO1qBCfMG0vu2LC-1" source="eJHKQi5sG8lWCjI9zgiu-2" target="eJHKQi5sG8lWCjI9zgiu-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eJHKQi5sG8lWCjI9zgiu-2" value="Array" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="Ae2msbO1qBCfMG0vu2LC-1">
+        <mxCell id="eJHKQi5sG8lWCjI9zgiu-2" value="Array" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" parent="Ae2msbO1qBCfMG0vu2LC-1" vertex="1">
           <mxGeometry x="420" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eJHKQi5sG8lWCjI9zgiu-3" value="[].concat(arr)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="Ae2msbO1qBCfMG0vu2LC-1">
+        <mxCell id="eJHKQi5sG8lWCjI9zgiu-3" value="[].concat(arr)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" parent="Ae2msbO1qBCfMG0vu2LC-1" vertex="1">
           <mxGeometry x="660" y="110" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eJHKQi5sG8lWCjI9zgiu-4" value="[...arr]" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="Ae2msbO1qBCfMG0vu2LC-1">
+        <mxCell id="eJHKQi5sG8lWCjI9zgiu-4" value="[...arr]" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" parent="Ae2msbO1qBCfMG0vu2LC-1" vertex="1">
           <mxGeometry x="670" y="260" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eJHKQi5sG8lWCjI9zgiu-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" edge="1" parent="Ae2msbO1qBCfMG0vu2LC-1" source="eJHKQi5sG8lWCjI9zgiu-2" target="eJHKQi5sG8lWCjI9zgiu-2">
+        <mxCell id="eJHKQi5sG8lWCjI9zgiu-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" parent="Ae2msbO1qBCfMG0vu2LC-1" source="eJHKQi5sG8lWCjI9zgiu-2" target="eJHKQi5sG8lWCjI9zgiu-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eJHKQi5sG8lWCjI9zgiu-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Ae2msbO1qBCfMG0vu2LC-1" source="eJHKQi5sG8lWCjI9zgiu-8" target="eJHKQi5sG8lWCjI9zgiu-9">
+        <mxCell id="eJHKQi5sG8lWCjI9zgiu-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="Ae2msbO1qBCfMG0vu2LC-1" source="eJHKQi5sG8lWCjI9zgiu-8" target="eJHKQi5sG8lWCjI9zgiu-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eJHKQi5sG8lWCjI9zgiu-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ae2msbO1qBCfMG0vu2LC-1" target="eJHKQi5sG8lWCjI9zgiu-10">
+        <mxCell id="eJHKQi5sG8lWCjI9zgiu-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Ae2msbO1qBCfMG0vu2LC-1" target="eJHKQi5sG8lWCjI9zgiu-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="500" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eJHKQi5sG8lWCjI9zgiu-8" value="Object" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="Ae2msbO1qBCfMG0vu2LC-1">
+        <mxCell id="eJHKQi5sG8lWCjI9zgiu-8" value="Object" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" parent="Ae2msbO1qBCfMG0vu2LC-1" vertex="1">
           <mxGeometry x="430" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eJHKQi5sG8lWCjI9zgiu-9" value="Object.assign({}, obj)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="Ae2msbO1qBCfMG0vu2LC-1">
+        <mxCell id="eJHKQi5sG8lWCjI9zgiu-9" value="Object.assign({}, obj)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" parent="Ae2msbO1qBCfMG0vu2LC-1" vertex="1">
           <mxGeometry x="650" y="390" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eJHKQi5sG8lWCjI9zgiu-10" value="{...obj}" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="Ae2msbO1qBCfMG0vu2LC-1">
+        <mxCell id="eJHKQi5sG8lWCjI9zgiu-10" value="{...obj}" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" parent="Ae2msbO1qBCfMG0vu2LC-1" vertex="1">
           <mxGeometry x="660" y="510" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eJHKQi5sG8lWCjI9zgiu-11" value="Shallow Clone" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fontStyle=1" vertex="1" parent="Ae2msbO1qBCfMG0vu2LC-1">
+        <mxCell id="eJHKQi5sG8lWCjI9zgiu-11" value="Shallow Clone" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fontStyle=1" parent="Ae2msbO1qBCfMG0vu2LC-1" vertex="1">
           <mxGeometry x="670" y="40" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eJHKQi5sG8lWCjI9zgiu-12" value="Deep Clone" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fontStyle=1" vertex="1" parent="Ae2msbO1qBCfMG0vu2LC-1">
+        <mxCell id="eJHKQi5sG8lWCjI9zgiu-12" value="Deep Clone" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fontStyle=1" parent="Ae2msbO1qBCfMG0vu2LC-1" vertex="1">
           <mxGeometry x="1210" y="40" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eJHKQi5sG8lWCjI9zgiu-13" value="JSON.parse(JSON.stringify(obj))" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="Ae2msbO1qBCfMG0vu2LC-1">
+        <mxCell id="eJHKQi5sG8lWCjI9zgiu-13" value="JSON.parse(JSON.stringify(obj))" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" parent="Ae2msbO1qBCfMG0vu2LC-1" vertex="1">
           <mxGeometry x="1060" y="150" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eJHKQi5sG8lWCjI9zgiu-14" value="If you have a massive deep object, it will cause some performance" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Ae2msbO1qBCfMG0vu2LC-1">
+        <mxCell id="eJHKQi5sG8lWCjI9zgiu-14" value="If you have a massive deep object, it will cause some performance" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;" parent="Ae2msbO1qBCfMG0vu2LC-1" vertex="1">
           <mxGeometry x="1060" y="280" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C-nkaAK-E5ljL3uBO1Ph-0" value="Website" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fontStyle=1" vertex="1" parent="Ae2msbO1qBCfMG0vu2LC-1">
+          <mxGeometry x="1695" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-nkaAK-E5ljL3uBO1Ph-1" value="JS Comparison Table" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="Ae2msbO1qBCfMG0vu2LC-1">
+          <mxGeometry x="1530" y="150" width="390" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="k_4or0bX3COHHP0lx4f-" name="Static &amp; Dynamic Type">
+    <mxGraphModel dx="2881" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="eCh1WCdjoA4WZ4kvy6Qm-0" />
+        <mxCell id="eCh1WCdjoA4WZ4kvy6Qm-1" parent="eCh1WCdjoA4WZ4kvy6Qm-0" />
+        <mxCell id="eCh1WCdjoA4WZ4kvy6Qm-3" value="Pros" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="eCh1WCdjoA4WZ4kvy6Qm-1">
+          <mxGeometry x="1480" y="380" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eCh1WCdjoA4WZ4kvy6Qm-4" value="Document on itself" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="eCh1WCdjoA4WZ4kvy6Qm-3">
+          <mxGeometry y="30" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eCh1WCdjoA4WZ4kvy6Qm-5" value="Less bug about type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="eCh1WCdjoA4WZ4kvy6Qm-3">
+          <mxGeometry y="60" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zsH5dh9wwaUS1mIvAQ8O-3" value="Static Type" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fontStyle=1" vertex="1" parent="eCh1WCdjoA4WZ4kvy6Qm-1">
+          <mxGeometry x="1760" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zsH5dh9wwaUS1mIvAQ8O-4" value="Cons" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="eCh1WCdjoA4WZ4kvy6Qm-1">
+          <mxGeometry x="1820" y="380" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zsH5dh9wwaUS1mIvAQ8O-5" value="Add another complexity to our code" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="zsH5dh9wwaUS1mIvAQ8O-4">
+          <mxGeometry y="30" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zsH5dh9wwaUS1mIvAQ8O-7" value="Dynamic Type" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fontStyle=1" vertex="1" parent="eCh1WCdjoA4WZ4kvy6Qm-1">
+          <mxGeometry x="440" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zsH5dh9wwaUS1mIvAQ8O-8" value="Pros" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="eCh1WCdjoA4WZ4kvy6Qm-1">
+          <mxGeometry x="-150" y="260" width="630" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zsH5dh9wwaUS1mIvAQ8O-9" value="Spend most time debug on another thing rather than type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="zsH5dh9wwaUS1mIvAQ8O-8">
+          <mxGeometry y="30" width="630" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zsH5dh9wwaUS1mIvAQ8O-10" value="More flexible, code faster without thinking about type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="zsH5dh9wwaUS1mIvAQ8O-8">
+          <mxGeometry y="60" width="630" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zsH5dh9wwaUS1mIvAQ8O-11" value="Cons" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="eCh1WCdjoA4WZ4kvy6Qm-1">
+          <mxGeometry x="550" y="260" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zsH5dh9wwaUS1mIvAQ8O-12" value="Sometime it hard to tell what type is it" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="zsH5dh9wwaUS1mIvAQ8O-11">
+          <mxGeometry y="30" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zsH5dh9wwaUS1mIvAQ8O-13" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/1400/1*BddwVWW6hFU0miT9DCbUWQ.png;" vertex="1" parent="eCh1WCdjoA4WZ4kvy6Qm-1">
+          <mxGeometry x="740" y="120" width="929.45" height="454" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
