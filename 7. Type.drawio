@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T00:22:53.188Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="iNKuX1Dot7hlfRpiMXYv" version="17.1.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-03-11T00:31:30.541Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="QjJMFU9mIEQSGDmlkn_M" version="17.1.0" type="github" pages="5">
   <diagram id="rVjcZ1eOST21J0QNa4Qz" name="Everything is Object">
-    <mxGraphModel dx="1130" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1181" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,7 +76,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cJVfpGc6TuGJnPlzD5TT" name="Array.isArray()">
-    <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1181" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="s3QcPQxZ7YLk9l_ESSbD-0" />
         <mxCell id="s3QcPQxZ7YLk9l_ESSbD-1" parent="s3QcPQxZ7YLk9l_ESSbD-0" />
@@ -93,7 +93,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ttF_B2vLZ2Rh-6PeZTUZ" name="Pass by Value&amp;Reference">
-    <mxGraphModel dx="1130" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1181" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="b2LPGF3QorFjGjKCmys3-0" />
         <mxCell id="b2LPGF3QorFjGjKCmys3-1" parent="b2LPGF3QorFjGjKCmys3-0" />
@@ -203,7 +203,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9vWCTNvFpaBvPIxFoTVL" name="Shallow &amp; Deep Clone">
-    <mxGraphModel dx="1130" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1181" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Ae2msbO1qBCfMG0vu2LC-0" />
         <mxCell id="Ae2msbO1qBCfMG0vu2LC-1" parent="Ae2msbO1qBCfMG0vu2LC-0" />
@@ -308,6 +308,9 @@
         </mxCell>
         <mxCell id="zsH5dh9wwaUS1mIvAQ8O-13" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/1400/1*BddwVWW6hFU0miT9DCbUWQ.png;" vertex="1" parent="eCh1WCdjoA4WZ4kvy6Qm-1">
           <mxGeometry x="740" y="120" width="929.45" height="454" as="geometry" />
+        </mxCell>
+        <mxCell id="pcntMnNOw0FLa9F8gBac-2" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;image=https://cdn2.hexlet.io/derivations/image/original/eyJpZCI6ImVhYmFkZGE0ZDE2NGFlNmI5MDVkZDUzOTQ3OGE4NWYwLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9?signature=8df1085728dae1e8e84c5ceaa57460f20b87784e779bef3df3fccd1cdc169e7d;" vertex="1" parent="eCh1WCdjoA4WZ4kvy6Qm-1">
+          <mxGeometry x="940" y="640" width="520" height="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
