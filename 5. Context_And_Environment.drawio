@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T02:20:11.903Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="zrifNrgZJEf7cwI4560x" version="16.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-12T12:34:37.398Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="YbNjqV2StKiS0mO_aezQ" version="17.1.2" type="github" pages="4">
   <diagram id="b0Auv1Jlue2y7taAIIXk" name="Execution Context">
-    <mxGraphModel dx="1665" dy="1539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1958" dy="1704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lAfjjO9KMvnH7m7qASbD" name="Lexical Enviroment">
-    <mxGraphModel dx="815" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="MRwqNVUu9ifoQk5q83aU-0" />
         <mxCell id="MRwqNVUu9ifoQk5q83aU-1" parent="MRwqNVUu9ifoQk5q83aU-0" />
@@ -78,13 +78,13 @@
         <mxCell id="uu-842XFuYci9IdKXxVY-9" value="trash" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSize=20;gradientColor=none;opacity=30;" parent="uu-842XFuYci9IdKXxVY-8" vertex="1">
           <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uu-842XFuYci9IdKXxVY-10" value="Lexical Environment is where the variable/function was written" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSize=20;opacity=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="MRwqNVUu9ifoQk5q83aU-1" vertex="1">
+        <mxCell id="uu-842XFuYci9IdKXxVY-10" value="Lexical Environment is JS engine know based on where the variable/function was written before we run the code" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSize=20;opacity=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="MRwqNVUu9ifoQk5q83aU-1" vertex="1">
           <mxGeometry x="1370" y="500" width="270" height="210" as="geometry" />
         </mxCell>
         <mxCell id="gxRdNmZmIEfmXXqUhYpu-0" value="Lexically mean where it was written" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSize=20;opacity=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="MRwqNVUu9ifoQk5q83aU-1" vertex="1">
           <mxGeometry x="1370" y="732" width="270" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="ReF-AOkVJj2CQ9vXLvNX-0" value="Lexical Environment == Lexical Scope" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSize=20;opacity=30;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="MRwqNVUu9ifoQk5q83aU-1">
+        <mxCell id="ReF-AOkVJj2CQ9vXLvNX-0" value="Lexical Environment == Lexical Scope" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSize=20;opacity=30;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="MRwqNVUu9ifoQk5q83aU-1" vertex="1">
           <mxGeometry x="900" y="390" width="270" height="210" as="geometry" />
         </mxCell>
       </root>
