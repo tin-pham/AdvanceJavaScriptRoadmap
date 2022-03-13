@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-03-13T13:15:03.088Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="ysLsEVYFmxX0yQYvFFTz" version="17.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-13T13:18:35.693Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="RHOXZWeoVqEYXeg_26Zo" version="17.1.2" type="github" pages="4">
   <diagram id="x707g6Yf8RZFd1TnT3co" name="Closure">
     <mxGraphModel dx="1108" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VP9L092tS3HKr_LZldHY-2" value="Function" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="210" y="250" width="120" height="60" as="geometry" />
+        <mxCell id="VP9L092tS3HKr_LZldHY-2" value="Function is First Class Citizen" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="130" y="250" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VP9L092tS3HKr_LZldHY-3" value="Lexical Environment" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="450" y="250" width="170" height="60" as="geometry" />
