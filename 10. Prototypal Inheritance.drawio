@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T13:43:10.664Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="OfuKdkd3OY6J07wN7wPh" version="17.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-14T14:05:46.490Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="5rKEmZrETtibJAldO-MQ" version="17.1.2" type="github" pages="5">
   <diagram id="c2qCnDBeaKIM3LguqDqV" name="Prototype">
     <mxGraphModel dx="962" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -261,6 +261,14 @@
             <mxPoint x="430" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RukxJLfXctFDJpwMMpJg" name="Add new method to prototype">
+    <mxGraphModel dx="962" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="e31yQWO1IZmSO2haPDfI-0" />
+        <mxCell id="e31yQWO1IZmSO2haPDfI-1" parent="e31yQWO1IZmSO2haPDfI-0" />
       </root>
     </mxGraphModel>
   </diagram>
