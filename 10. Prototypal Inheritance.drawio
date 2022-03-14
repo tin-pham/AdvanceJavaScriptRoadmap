@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T12:06:23.110Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="ZR_SI_E3uEXfmOpHumXG" version="17.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-14T12:10:12.881Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="i2tG7IPiejL2ISYQ1COr" version="17.1.2" type="github" pages="4">
   <diagram id="c2qCnDBeaKIM3LguqDqV" name="Prototype">
     <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -99,6 +99,9 @@
         </mxCell>
         <mxCell id="uLcK_QsdLBNvX9J-tVaa-1" value="hasOwnProperty" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=none;" vertex="1" parent="J4_97utKXJjZmqtFNyx6-1">
           <mxGeometry x="2120" y="100" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="30qrYleY2NjApOCtxP4E-0" value="This is useful because we don&#39;t want every array have it own &#39;map&#39; method ^ ^, it only inheritance from Array" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="J4_97utKXJjZmqtFNyx6-1">
+          <mxGeometry x="980" y="-190" width="370" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -220,7 +223,7 @@
         <mxCell id="rTCYOU1leS3IiehFxsOy-20" value="null" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=none;" vertex="1" parent="3zs2YCKYRH5aaqTYTkyJ-1">
           <mxGeometry x="1440" y="300" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rTCYOU1leS3IiehFxsOy-22" value="__proto__ or [[Prototype]] is a pointer point to the Prototype&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=none;" vertex="1" parent="3zs2YCKYRH5aaqTYTkyJ-1">
+        <mxCell id="rTCYOU1leS3IiehFxsOy-22" value="__proto__ or [[Prototype]] is a pointer point to the Prototype up the chain" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=none;" vertex="1" parent="3zs2YCKYRH5aaqTYTkyJ-1">
           <mxGeometry x="480" y="450" width="850" height="30" as="geometry" />
         </mxCell>
       </root>
