@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T06:33:24.443Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="sv5D0UEfBotuO8C3C0jg" version="17.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-15T06:58:18.336Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="IbIZXZ8hOXya3l-v-QaL" version="17.1.2" type="github" pages="3">
   <diagram id="T67OlIUBfix2hTQOuYle" name="Programming Paradigm">
     <mxGraphModel dx="1130" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,11 +69,41 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="6r-Q80o0UcwgqgqY0qfe" name="Page-3">
-    <mxGraphModel dx="1108" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+  <diagram id="6r-Q80o0UcwgqgqY0qfe" name="OOP &amp; FP">
+    <mxGraphModel dx="1108" dy="1704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="9VHSuaamGD21FpuphhHd-0" />
         <mxCell id="9VHSuaamGD21FpuphhHd-1" parent="9VHSuaamGD21FpuphhHd-0" />
+        <mxCell id="u38MT0_wvror-k2JuayJ-0" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn4.iconfinder.com/data/icons/technology-83/1000/object_programming_development_oriented_developer_object-oriented_programming_software-512.png;" vertex="1" parent="9VHSuaamGD21FpuphhHd-1">
+          <mxGeometry x="310" y="220" width="212" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="u38MT0_wvror-k2JuayJ-2" value="JavaScript was created based on Scheme (FP) and Java (OOP)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="9VHSuaamGD21FpuphhHd-1">
+          <mxGeometry x="320" y="-190" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="u38MT0_wvror-k2JuayJ-3" value="&lt;span&gt;You can choose either OOP or FP in JavaScript&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="9VHSuaamGD21FpuphhHd-1">
+          <mxGeometry x="630" y="-180" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="u38MT0_wvror-k2JuayJ-4" value="Object is everything" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="9VHSuaamGD21FpuphhHd-1">
+          <mxGeometry x="281" y="440" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u38MT0_wvror-k2JuayJ-5" value="Prototypal Inheritance" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="9VHSuaamGD21FpuphhHd-1">
+          <mxGeometry x="281" y="525" width="269" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="u38MT0_wvror-k2JuayJ-6" value="Keep data and action in the same place" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="9VHSuaamGD21FpuphhHd-1">
+          <mxGeometry x="281" y="620" width="269" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="u38MT0_wvror-k2JuayJ-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://res.cloudinary.com/practicaldev/image/fetch/s--xu31RoJR--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/nr7vml5tf56z0abtlk4s.png;" vertex="1" parent="9VHSuaamGD21FpuphhHd-1">
+          <mxGeometry x="880" y="260" width="170" height="112.13" as="geometry" />
+        </mxCell>
+        <mxCell id="u38MT0_wvror-k2JuayJ-12" value="Function is core" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="9VHSuaamGD21FpuphhHd-1">
+          <mxGeometry x="810" y="440" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u38MT0_wvror-k2JuayJ-13" value="Closure" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="9VHSuaamGD21FpuphhHd-1">
+          <mxGeometry x="810" y="525" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u38MT0_wvror-k2JuayJ-14" value="Keep data and action in different place" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="9VHSuaamGD21FpuphhHd-1">
+          <mxGeometry x="810" y="620" width="269" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
