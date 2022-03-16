@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T10:40:09.617Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="8MiumH-vLsxIwSLXR2eF" version="17.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-16T11:36:32.124Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="GlQTTHJ7BG58NrFJStUj" version="17.1.2" type="github" pages="4">
   <diagram id="2BvJ7SQYvnQd80Tf7VA9" name="Introduction">
     <mxGraphModel dx="1108" dy="1704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -76,7 +76,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Eavm1jm3Sc3kKfqTFpjD" name="Constructor Function&#39;">
-    <mxGraphModel dx="1847" dy="1007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="JoiRNGHS83ztjA1Cp4t4-0" />
         <mxCell id="JoiRNGHS83ztjA1Cp4t4-1" parent="JoiRNGHS83ztjA1Cp4t4-0" />
@@ -121,6 +121,26 @@
         </mxCell>
         <mxCell id="QQGPaA_VZFJhbZq9CKN4-1" value="Why this not being used&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fontStyle=1" vertex="1" parent="JoiRNGHS83ztjA1Cp4t4-1">
           <mxGeometry x="1400" y="830" width="290" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="x2CXBIg_6dUaGlCfF0Ae" name="Object Wrapper">
+    <mxGraphModel dx="1108" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="V_iEunkZXKVcKa9HmajI-0" />
+        <mxCell id="V_iEunkZXKVcKa9HmajI-1" parent="V_iEunkZXKVcKa9HmajI-0" />
+        <mxCell id="V_iEunkZXKVcKa9HmajI-2" value="var a = 5;&lt;br&gt;a.toString()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="V_iEunkZXKVcKa9HmajI-1">
+          <mxGeometry x="400" y="140" width="350" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V_iEunkZXKVcKa9HmajI-5" value="When you call method of primitive data type, it will temporary make an Object Wrapper around that&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#666666;" vertex="1" parent="V_iEunkZXKVcKa9HmajI-1">
+          <mxGeometry x="110" y="280" width="920" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V_iEunkZXKVcKa9HmajI-6" value="var a = new Number(5);&lt;br&gt;typeof a; // &#39;object&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="V_iEunkZXKVcKa9HmajI-1">
+          <mxGeometry x="285" y="495" width="570" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="V_iEunkZXKVcKa9HmajI-7" value="That will just temporary go to object number 5 for a moment, and it go back to primitive type again" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#666666;" vertex="1" parent="V_iEunkZXKVcKa9HmajI-1">
+          <mxGeometry x="327.5" y="640" width="495" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
