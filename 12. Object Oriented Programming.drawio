@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T04:18:34.804Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="CYBD-q59p6yzB0KKspLy" version="17.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-16T10:40:09.617Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="8MiumH-vLsxIwSLXR2eF" version="17.1.2" type="github" pages="3">
   <diagram id="2BvJ7SQYvnQd80Tf7VA9" name="Introduction">
     <mxGraphModel dx="1108" dy="1704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -76,7 +76,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Eavm1jm3Sc3kKfqTFpjD" name="Constructor Function&#39;">
-    <mxGraphModel dx="1108" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1847" dy="1007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="JoiRNGHS83ztjA1Cp4t4-0" />
         <mxCell id="JoiRNGHS83ztjA1Cp4t4-1" parent="JoiRNGHS83ztjA1Cp4t4-0" />
@@ -115,6 +115,12 @@
         </mxCell>
         <mxCell id="YSmOERR5A5E6xfxAdzLc-1" value="eat" style="whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="JoiRNGHS83ztjA1Cp4t4-1">
           <mxGeometry x="1420" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QQGPaA_VZFJhbZq9CKN4-0" value="Again, the problem is this prototype thing kinda weird and ugly if you come from another OOP language and another better implementation for this" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JoiRNGHS83ztjA1Cp4t4-1">
+          <mxGeometry x="1330" y="890" width="420" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="QQGPaA_VZFJhbZq9CKN4-1" value="Why this not being used&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fontStyle=1" vertex="1" parent="JoiRNGHS83ztjA1Cp4t4-1">
+          <mxGeometry x="1400" y="830" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
