@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-20T07:57:24.350Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="M9QzwBHeOI4vcLeQ5HZm" version="17.1.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-03-21T07:03:42.181Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="eVmxJo3CppmtHar-x4eU" version="17.1.3" type="github" pages="9">
   <diagram id="jNHlUuoviB9LK1m7OarY" name="Introduction">
     <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -269,6 +269,68 @@
         </mxCell>
         <mxCell id="3tjn-y-syNQVsgiqYqRz-1" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;image=https://i.imgur.com/9g0gv8P.png;" vertex="1" parent="tcni85--bDl4Kra5han6-1">
           <mxGeometry x="770" y="460" width="520" height="344" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bdgmkjKUfHvcyCFsSExk" name="Compose &amp; Pipe">
+    <mxGraphModel dx="3004" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="yFdSz_qCsk4Z2jV2nD47-0" />
+        <mxCell id="yFdSz_qCsk4Z2jV2nD47-1" parent="yFdSz_qCsk4Z2jV2nD47-0" />
+        <mxCell id="yFdSz_qCsk4Z2jV2nD47-3" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://i.imgur.com/uPEsewC.png;" vertex="1" parent="yFdSz_qCsk4Z2jV2nD47-1">
+          <mxGeometry x="100" y="300" width="841.18" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yFdSz_qCsk4Z2jV2nD47-4" value="Compose &amp;amp; Pipe" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fontStyle=1" vertex="1" parent="yFdSz_qCsk4Z2jV2nD47-1">
+          <mxGeometry x="640" y="100" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yFdSz_qCsk4Z2jV2nD47-5" value="An idea for merge function together, so a result of one function can become the parameter of the next function" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="yFdSz_qCsk4Z2jV2nD47-1">
+          <mxGeometry x="390" y="160" width="840" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yFdSz_qCsk4Z2jV2nD47-8" value="By doing this, we can write small &#39;composable&#39; function and merge them together" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="yFdSz_qCsk4Z2jV2nD47-1">
+          <mxGeometry x="320" y="430" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yFdSz_qCsk4Z2jV2nD47-10" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;image=https://i.imgur.com/TQS7Ild.png;" vertex="1" parent="yFdSz_qCsk4Z2jV2nD47-1">
+          <mxGeometry x="1000" y="337.21" width="740" height="35.58" as="geometry" />
+        </mxCell>
+        <mxCell id="yFdSz_qCsk4Z2jV2nD47-11" value="&#39;Pipe&#39; is exactly the same, but it from left to right" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="yFdSz_qCsk4Z2jV2nD47-1">
+          <mxGeometry x="1130" y="410" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yFdSz_qCsk4Z2jV2nD47-13" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;image=https://i.imgur.com/QZq4sQx.png;" vertex="1" parent="yFdSz_qCsk4Z2jV2nD47-1">
+          <mxGeometry x="40" y="820" width="780" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yFdSz_qCsk4Z2jV2nD47-14" value="Behind the scene" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fontStyle=1" vertex="1" parent="yFdSz_qCsk4Z2jV2nD47-1">
+          <mxGeometry x="630" y="690" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yFdSz_qCsk4Z2jV2nD47-15" value="You can use library for compose &amp;amp; pipe," style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="yFdSz_qCsk4Z2jV2nD47-1">
+          <mxGeometry x="631.1800000000001" y="740" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HiLoIGl_dn3wOY3thZgX-1" value="...args mean we don&#39;t know how many argument will be passed to the function" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="yFdSz_qCsk4Z2jV2nD47-1">
+          <mxGeometry x="10" y="920" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HiLoIGl_dn3wOY3thZgX-2" value="The result of g is argument of f" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="yFdSz_qCsk4Z2jV2nD47-1">
+          <mxGeometry x="420" y="920" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HiLoIGl_dn3wOY3thZgX-3" value="pipe is exactly the same but in reverse order" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="yFdSz_qCsk4Z2jV2nD47-1">
+          <mxGeometry x="1081" y="910" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HiLoIGl_dn3wOY3thZgX-5" value="Multiple compose function" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fontStyle=1" vertex="1" parent="yFdSz_qCsk4Z2jV2nD47-1">
+          <mxGeometry x="670" y="1150" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HiLoIGl_dn3wOY3thZgX-7" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;image=https://i.imgur.com/nwHHr32.png;" vertex="1" parent="yFdSz_qCsk4Z2jV2nD47-1">
+          <mxGeometry x="941.18" y="831.5" width="822.16" height="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HiLoIGl_dn3wOY3thZgX-9" value="How to deal with multiple function being passed in" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="yFdSz_qCsk4Z2jV2nD47-1">
+          <mxGeometry x="290" y="1500" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HiLoIGl_dn3wOY3thZgX-10" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;image=https://i.imgur.com/pAwbR5V.png;" vertex="1" parent="yFdSz_qCsk4Z2jV2nD47-1">
+          <mxGeometry x="-120" y="1270" width="1190.36" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="R-RC5gEvHXlIVfdfFO1J-0" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;image=https://i.imgur.com/H7uvGUE.png;" vertex="1" parent="yFdSz_qCsk4Z2jV2nD47-1">
+          <mxGeometry x="1250" y="1250" width="1040" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="R-RC5gEvHXlIVfdfFO1J-1" value="Instead of write another compose with three argument, we accept multiple argument in the merge function, than we map it to return the addThree(multiplyByThree(makeAbsolute(-5))), every iteration the accumulator will receive the f(g(...args)) part" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="yFdSz_qCsk4Z2jV2nD47-1">
+          <mxGeometry x="1430" y="1540" width="740" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
