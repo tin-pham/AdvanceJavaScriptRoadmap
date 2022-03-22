@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-22T10:57:08.528Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="UraqRwT4jGjLZbjzqv4p" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-22T10:58:07.590Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="-UkB9BLZyJT3pDotXnG9" version="17.1.3" type="github" pages="2">
   <diagram id="fc3qdRNUV-3WKbPgGzG8" name="How JavaScript Work?">
     <mxGraphModel dx="1108" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,6 +7,14 @@
         <mxCell id="XwFh6ZZNU7VVgMdY2XPN-1" value="Open 01. HowJavaScriptWork.drawio to see detail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;" vertex="1" parent="1">
           <mxGeometry x="410" y="190" width="650" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZS4i5PgyQEk4OIOyAhz4" name="Page-2">
+    <mxGraphModel dx="1108" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="Mp2Yd9505OlO-CLSxsnI-0" />
+        <mxCell id="Mp2Yd9505OlO-CLSxsnI-1" parent="Mp2Yd9505OlO-CLSxsnI-0" />
       </root>
     </mxGraphModel>
   </diagram>
