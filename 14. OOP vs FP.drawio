@@ -1,1 +1,156 @@
-<mxfile host="app.diagrams.net" modified="2022-03-22T00:25:06.695Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" version="17.1.3" etag="QvtUQdm7Ya6H6MJJh_tj" type="github"><diagram id="mZjRC4O-QxlC0_ztxhZj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-22T05:02:43.322Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="H4CormDbtunsqeeBNoL9" version="17.1.3" type="github" pages="2">
+  <diagram id="mZjRC4O-QxlC0_ztxhZj" name="Composition vs. Inheritance">
+    <mxGraphModel dx="3547" dy="1058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uSb0a1aycxkmjNk40b4d-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uSb0a1aycxkmjNk40b4d-1" target="uSb0a1aycxkmjNk40b4d-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uSb0a1aycxkmjNk40b4d-1" target="uSb0a1aycxkmjNk40b4d-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uSb0a1aycxkmjNk40b4d-1" target="uSb0a1aycxkmjNk40b4d-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/679/679821.png;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="272" height="272" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/679/679821.png;" vertex="1" parent="1">
+          <mxGeometry x="690" y="150" width="112" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/679/679821.png;" vertex="1" parent="1">
+          <mxGeometry x="690" y="290" width="112" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/679/679821.png;" vertex="1" parent="1">
+          <mxGeometry x="690" y="420" width="112" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-8" value="Inheritance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=36;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-9" value="What it is" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=36;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="380" y="50" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" edge="1" parent="1" source="uSb0a1aycxkmjNk40b4d-11" target="uSb0a1aycxkmjNk40b4d-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-11" value="Tight Coupling" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=36;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry y="580" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-12" value="One class tightly depend on other class" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="660" width="445" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-13" value="Fragile Base Class" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=36;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="540" y="580" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-15" value="Whenever you change something in superclass, we can have unexpected result in subclass (and maybe we don&#39;t want to have that in our subclass,..etc)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="517.5" y="690" width="445" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-16" value="Composition" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=36;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1440" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-17" value="What it does" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=36;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="50" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-18" value="Hirearchy" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=36;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="340" y="870" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-19" value="What about we want Elf subclass to have extend Creature class rather than Character... it will become complicated if the Hierarchy become bigger" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="990" width="445" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" edge="1" parent="1" source="uSb0a1aycxkmjNk40b4d-19" target="uSb0a1aycxkmjNk40b4d-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-27" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/679/679821.png;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="250" width="112" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-28" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/679/679821.png;" vertex="1" parent="1">
+          <mxGeometry x="1212" y="250" width="112" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-29" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/679/679821.png;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="308" width="112" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" edge="1" parent="1" source="uSb0a1aycxkmjNk40b4d-30" target="uSb0a1aycxkmjNk40b4d-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" edge="1" parent="1" source="uSb0a1aycxkmjNk40b4d-30" target="uSb0a1aycxkmjNk40b4d-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" edge="1" parent="1" source="uSb0a1aycxkmjNk40b4d-30" target="uSb0a1aycxkmjNk40b4d-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-30" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/679/679821.png;" vertex="1" parent="1">
+          <mxGeometry x="1212" y="308" width="112" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-31" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/679/679821.png;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="380" width="112" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-32" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/679/679821.png;" vertex="1" parent="1">
+          <mxGeometry x="1212" y="370" width="112" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-33" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/679/679821.png;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="170" width="112" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-35" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/679/679821.png;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="300" width="112" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-37" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/679/679821.png;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="430" width="112" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-39" value="Compose" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=36;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="590" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uSb0a1aycxkmjNk40b4d-40" value="Smaller piece combine to create something bigger, we can manually add something we want" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="670" width="445" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pzTx0OX7I6GgA1MJKpJs" name="OOP vs FP">
+    <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="AMj5gSxaB9GAhTvXp0Qo-0" />
+        <mxCell id="AMj5gSxaB9GAhTvXp0Qo-1" parent="AMj5gSxaB9GAhTvXp0Qo-0" />
+        <mxCell id="bKTn5FZh6l9R-9kdVHiv-0" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn4.iconfinder.com/data/icons/technology-83/1000/object_programming_development_oriented_developer_object-oriented_programming_software-512.png;" vertex="1" parent="AMj5gSxaB9GAhTvXp0Qo-1">
+          <mxGeometry x="74" y="48" width="512" height="512" as="geometry" />
+        </mxCell>
+        <mxCell id="1KbCOvxePIxIdBWciApF-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://freesvg.org/img/ftfunct.png;" vertex="1" parent="AMj5gSxaB9GAhTvXp0Qo-1">
+          <mxGeometry x="800" y="220" width="322" height="322" as="geometry" />
+        </mxCell>
+        <mxCell id="1KbCOvxePIxIdBWciApF-3" value="Stateless" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="AMj5gSxaB9GAhTvXp0Qo-1">
+          <mxGeometry x="860" y="660" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1KbCOvxePIxIdBWciApF-4" value="Stateful" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="AMj5gSxaB9GAhTvXp0Qo-1">
+          <mxGeometry x="190" y="670" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1KbCOvxePIxIdBWciApF-5" value="Pure" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="AMj5gSxaB9GAhTvXp0Qo-1">
+          <mxGeometry x="860" y="770" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1KbCOvxePIxIdBWciApF-6" value="Side effect" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="AMj5gSxaB9GAhTvXp0Qo-1">
+          <mxGeometry x="190" y="785" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1KbCOvxePIxIdBWciApF-7" value="Imperative" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="AMj5gSxaB9GAhTvXp0Qo-1">
+          <mxGeometry x="190" y="900" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1KbCOvxePIxIdBWciApF-8" value="Declarative" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="AMj5gSxaB9GAhTvXp0Qo-1">
+          <mxGeometry x="860" y="890" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1KbCOvxePIxIdBWciApF-10" value="Few Operations on common data" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="AMj5gSxaB9GAhTvXp0Qo-1">
+          <mxGeometry x="190" y="550" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1KbCOvxePIxIdBWciApF-11" value="Many operations on fixed data" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="AMj5gSxaB9GAhTvXp0Qo-1">
+          <mxGeometry x="855" y="542" width="290" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="1KbCOvxePIxIdBWciApF-14" value="React Component" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="AMj5gSxaB9GAhTvXp0Qo-1">
+          <mxGeometry x="540" y="1090" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1KbCOvxePIxIdBWciApF-15" value="Analyze data" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="AMj5gSxaB9GAhTvXp0Qo-1">
+          <mxGeometry x="865" y="1190" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1KbCOvxePIxIdBWciApF-16" value="Game (few method)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="AMj5gSxaB9GAhTvXp0Qo-1">
+          <mxGeometry x="190" y="1190" width="280" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
