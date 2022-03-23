@@ -1,20 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2022-03-22T10:58:07.590Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="-UkB9BLZyJT3pDotXnG9" version="17.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-23T11:40:17.506Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="4oWK9MGeIcv2hpjkIiA5" version="17.1.3" type="github" pages="5">
   <diagram id="fc3qdRNUV-3WKbPgGzG8" name="How JavaScript Work?">
     <mxGraphModel dx="1108" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XwFh6ZZNU7VVgMdY2XPN-1" value="Open 01. HowJavaScriptWork.drawio to see detail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;" vertex="1" parent="1">
-          <mxGeometry x="410" y="190" width="650" height="30" as="geometry" />
+        <mxCell id="XwFh6ZZNU7VVgMdY2XPN-1" value="Open 01. HowJavaScriptWork.drawio to see detail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;" parent="1" vertex="1">
+          <mxGeometry x="150" y="360" width="650" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="ZS4i5PgyQEk4OIOyAhz4" name="Page-2">
+  <diagram id="ZS4i5PgyQEk4OIOyAhz4" name="Call Stack &amp; Memory Heap">
     <mxGraphModel dx="1108" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Mp2Yd9505OlO-CLSxsnI-0" />
         <mxCell id="Mp2Yd9505OlO-CLSxsnI-1" parent="Mp2Yd9505OlO-CLSxsnI-0" />
+        <mxCell id="FzG2l9otOxIDZW2-HPiY-0" value="Open 02 To see Call Stack and Memory Heap in detail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;" vertex="1" parent="Mp2Yd9505OlO-CLSxsnI-1">
+          <mxGeometry x="210" y="290" width="760" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hcu5jikc3CQKRy6TyExL" name="Single Threaded">
+    <mxGraphModel dx="1847" dy="1007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="wLvJ7VaG2T52yhGh1tnW-0" />
+        <mxCell id="wLvJ7VaG2T52yhGh1tnW-1" parent="wLvJ7VaG2T52yhGh1tnW-0" />
+        <mxCell id="IluBiC6F5fzOEmpL350S-0" value="Open 03 Single Threaded.drawio to see the detail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;" vertex="1" parent="wLvJ7VaG2T52yhGh1tnW-1">
+          <mxGeometry x="260" y="400" width="760" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9iTNgwLxE4SM2hu-vY17" name="Callbacks">
+    <mxGraphModel dx="1385" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="52SQwDr_mUkiHgoPI5n4-0" />
+        <mxCell id="52SQwDr_mUkiHgoPI5n4-1" parent="52SQwDr_mUkiHgoPI5n4-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="c7OKo2i2gWKYtF5sJoYb" name="Promises">
+    <mxGraphModel dx="1304" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="iMmkJpFl8p7IXwXjWXDA-0" />
+        <mxCell id="iMmkJpFl8p7IXwXjWXDA-1" parent="iMmkJpFl8p7IXwXjWXDA-0" />
+        <mxCell id="94B_dlWqQyTgRR0id1CO-0" value="Promises" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=45;fontStyle=1" vertex="1" parent="iMmkJpFl8p7IXwXjWXDA-1">
+          <mxGeometry x="490" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="94B_dlWqQyTgRR0id1CO-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.pohoc.org/wp-content/uploads/2015/03/engagement-icon-circle-1024x1022.png;" vertex="1" parent="iMmkJpFl8p7IXwXjWXDA-1">
+          <mxGeometry x="399.77" y="160" width="240.46" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="94B_dlWqQyTgRR0id1CO-2" value="An object that may produce a value in the future" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="iMmkJpFl8p7IXwXjWXDA-1">
+          <mxGeometry x="320" y="400" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="94B_dlWqQyTgRR0id1CO-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="iMmkJpFl8p7IXwXjWXDA-1" source="94B_dlWqQyTgRR0id1CO-5" target="94B_dlWqQyTgRR0id1CO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="94B_dlWqQyTgRR0id1CO-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="iMmkJpFl8p7IXwXjWXDA-1" source="94B_dlWqQyTgRR0id1CO-5" target="94B_dlWqQyTgRR0id1CO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="94B_dlWqQyTgRR0id1CO-5" value="Pending" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="iMmkJpFl8p7IXwXjWXDA-1">
+          <mxGeometry x="180" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="94B_dlWqQyTgRR0id1CO-6" value="Fullfilled" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="iMmkJpFl8p7IXwXjWXDA-1">
+          <mxGeometry x="500" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="94B_dlWqQyTgRR0id1CO-7" value="Rejected" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="iMmkJpFl8p7IXwXjWXDA-1">
+          <mxGeometry x="500" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
