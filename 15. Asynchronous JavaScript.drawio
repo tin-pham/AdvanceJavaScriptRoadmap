@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T02:30:06.883Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="SFcbHrLFByLDXnY0wH5Y" version="17.2.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-03-24T02:35:55.745Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="nlrPi0fCt3TqmWzw3TKD" version="17.2.0" type="github" pages="9">
   <diagram id="fc3qdRNUV-3WKbPgGzG8" name="How JavaScript Work?">
     <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,22 +11,22 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZS4i5PgyQEk4OIOyAhz4" name="Call Stack &amp; Memory Heap">
-    <mxGraphModel dx="1108" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Mp2Yd9505OlO-CLSxsnI-0" />
         <mxCell id="Mp2Yd9505OlO-CLSxsnI-1" parent="Mp2Yd9505OlO-CLSxsnI-0" />
-        <mxCell id="FzG2l9otOxIDZW2-HPiY-0" value="Open 02 To see Call Stack and Memory Heap in detail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;" vertex="1" parent="Mp2Yd9505OlO-CLSxsnI-1">
+        <mxCell id="FzG2l9otOxIDZW2-HPiY-0" value="Open 02 To see Call Stack and Memory Heap in detail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;" parent="Mp2Yd9505OlO-CLSxsnI-1" vertex="1">
           <mxGeometry x="210" y="290" width="760" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="hcu5jikc3CQKRy6TyExL" name="Single Threaded">
-    <mxGraphModel dx="1847" dy="1007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="wLvJ7VaG2T52yhGh1tnW-0" />
         <mxCell id="wLvJ7VaG2T52yhGh1tnW-1" parent="wLvJ7VaG2T52yhGh1tnW-0" />
-        <mxCell id="IluBiC6F5fzOEmpL350S-0" value="Open 03 Single Threaded.drawio to see the detail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;" vertex="1" parent="wLvJ7VaG2T52yhGh1tnW-1">
+        <mxCell id="IluBiC6F5fzOEmpL350S-0" value="Open 03 Single Threaded.drawio to see the detail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;" parent="wLvJ7VaG2T52yhGh1tnW-1" vertex="1">
           <mxGeometry x="260" y="400" width="760" height="30" as="geometry" />
         </mxCell>
       </root>
@@ -220,6 +220,14 @@
         <mxCell id="UzcuEIn5WgWVqbdDV2Zh-2" value="Loop throught the promises array" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="360" y="447" width="500" height="70" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NrfE3CgRroBVNd8EH3qm" name="Job Queues">
+    <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
