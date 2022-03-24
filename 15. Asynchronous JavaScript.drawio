@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T12:16:47.520Z" agent="5.0 (X11)" etag="yI6lLvbS8ZieIKn9zLzJ" version="17.1.2" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-03-24T12:22:37.093Z" agent="5.0 (X11)" etag="oRS2s1izwnZzzT0CxhTw" version="17.1.2" type="github" pages="13">
   <diagram id="fc3qdRNUV-3WKbPgGzG8" name="How JavaScript Work?">
     <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -329,7 +329,7 @@
       <root>
         <mxCell id="WoOY1joqngkbDJAiZJQ_-0" />
         <mxCell id="WoOY1joqngkbDJAiZJQ_-1" parent="WoOY1joqngkbDJAiZJQ_-0" />
-        <mxCell id="WoOY1joqngkbDJAiZJQ_-2" value="Single Thread" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontStyle=1;fontSize=35;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
+        <mxCell id="WoOY1joqngkbDJAiZJQ_-2" value="Single Thread" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontStyle=0;fontSize=35;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
           <mxGeometry x="140" y="260" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WoOY1joqngkbDJAiZJQ_-3" value="Whenever you create a new tab, the browser will give that 1 thread contain 1 call stack and 1 memory heap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
@@ -340,6 +340,57 @@
         </mxCell>
         <mxCell id="WoOY1joqngkbDJAiZJQ_-5" value="If you need to run some task on the background (async task) it will create Web Worker under the hood and run in different thread" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
           <mxGeometry x="520" y="310" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WoOY1joqngkbDJAiZJQ_-6" value="Conccurency (Single-Core CPU)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontStyle=1;fontSize=35;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
+          <mxGeometry x="340" y="550" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WoOY1joqngkbDJAiZJQ_-7" value="Run multiple task in one thread " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
+          <mxGeometry x="365" y="570" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WoOY1joqngkbDJAiZJQ_-8" value="You eat banana in left hand, than eat apple in right hand" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
+          <mxGeometry x="380" y="650" width="285" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="WoOY1joqngkbDJAiZJQ_-9" value="Parallelism (Multi-Core CPU)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontStyle=1;fontSize=35;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
+          <mxGeometry x="800" y="550" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WoOY1joqngkbDJAiZJQ_-10" value="Run multiple task in multiple thread" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
+          <mxGeometry x="820" y="580" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WoOY1joqngkbDJAiZJQ_-11" value="You have 2 mouth to eat (wtf :v)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
+          <mxGeometry x="840" y="650" width="285" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="WoOY1joqngkbDJAiZJQ_-12" value="fetch" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
+          <mxGeometry x="510" y="950" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WoOY1joqngkbDJAiZJQ_-13" value="render" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
+          <mxGeometry x="680" y="950" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WoOY1joqngkbDJAiZJQ_-14" value="fetch" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
+          <mxGeometry x="850" y="950" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WoOY1joqngkbDJAiZJQ_-15" value="fetch" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
+          <mxGeometry x="510" y="1080" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WoOY1joqngkbDJAiZJQ_-16" value="render" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
+          <mxGeometry x="680" y="1140" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WoOY1joqngkbDJAiZJQ_-19" value="Conccurency" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontStyle=1;fontSize=35;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
+          <mxGeometry x="160" y="960" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WoOY1joqngkbDJAiZJQ_-20" value="Parallelism" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontStyle=1;fontSize=35;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
+          <mxGeometry x="170" y="1100" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WoOY1joqngkbDJAiZJQ_-21" value="const worker = new Worker();" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
+          <mxGeometry x="935" y="260" width="355" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WoOY1joqngkbDJAiZJQ_-22" value="You can manually create a Worker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=15;fontStyle=2" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
+          <mxGeometry x="935" y="320" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WoOY1joqngkbDJAiZJQ_-23" value="const { spawn } = require(&#39;child_process&#39;);" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
+          <mxGeometry x="1190" y="680" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WoOY1joqngkbDJAiZJQ_-24" value="You can create more task in Node " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=15;fontStyle=2" vertex="1" parent="WoOY1joqngkbDJAiZJQ_-1">
+          <mxGeometry x="1220" y="750" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
