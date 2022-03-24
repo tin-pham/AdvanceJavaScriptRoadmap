@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T13:34:28.483Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="VcOL5jIl5uG-AbRaz4Z7" version="17.1.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-24T01:03:06.485Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="LOiwvfQLeekEqf3ts-BK" version="17.2.0" type="github" pages="7">
   <diagram id="fc3qdRNUV-3WKbPgGzG8" name="How JavaScript Work?">
-    <mxGraphModel dx="1108" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -134,15 +134,59 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Vxt71WL4tmPlGUcObGDQ" name="ES8 - Async Await">
-    <mxGraphModel dx="1108" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="j8hfUtJNb-FKXUQP2OIm-0" />
         <mxCell id="j8hfUtJNb-FKXUQP2OIm-1" parent="j8hfUtJNb-FKXUQP2OIm-0" />
-        <mxCell id="zPf93m3nOK8cR2tnxQNT-0" value="Async Await" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=45;fontStyle=1" vertex="1" parent="j8hfUtJNb-FKXUQP2OIm-1">
+        <mxCell id="zPf93m3nOK8cR2tnxQNT-0" value="Async Await" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=45;fontStyle=1" parent="j8hfUtJNb-FKXUQP2OIm-1" vertex="1">
           <mxGeometry x="340" y="150" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zPf93m3nOK8cR2tnxQNT-1" value="Syntactic sugar for Promise" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="j8hfUtJNb-FKXUQP2OIm-1">
+        <mxCell id="zPf93m3nOK8cR2tnxQNT-1" value="Syntactic sugar for Promise" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" parent="j8hfUtJNb-FKXUQP2OIm-1" vertex="1">
           <mxGeometry x="310" y="200" width="400" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qUAyBOX0Uv61B26WSDIJ" name="ES9 - Finally">
+    <mxGraphModel dx="1108" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XS3hhNd9YRHn-9kVj6M6-10" value="Finally" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="550" y="-20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3hhNd9YRHn-9kVj6M6-11" value=".finally will run regardless of being resolved or rejected" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="375" y="40" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3hhNd9YRHn-9kVj6M6-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="100" width="780" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3hhNd9YRHn-9kVj6M6-1" value=".then" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="XS3hhNd9YRHn-9kVj6M6-12">
+          <mxGeometry x="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3hhNd9YRHn-9kVj6M6-2" value=".catch" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="XS3hhNd9YRHn-9kVj6M6-12">
+          <mxGeometry x="410" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3hhNd9YRHn-9kVj6M6-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="XS3hhNd9YRHn-9kVj6M6-12" source="XS3hhNd9YRHn-9kVj6M6-1" target="XS3hhNd9YRHn-9kVj6M6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3hhNd9YRHn-9kVj6M6-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="XS3hhNd9YRHn-9kVj6M6-12" source="XS3hhNd9YRHn-9kVj6M6-3" target="XS3hhNd9YRHn-9kVj6M6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3hhNd9YRHn-9kVj6M6-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="XS3hhNd9YRHn-9kVj6M6-12" source="XS3hhNd9YRHn-9kVj6M6-3" target="XS3hhNd9YRHn-9kVj6M6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3hhNd9YRHn-9kVj6M6-3" value="pending" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="XS3hhNd9YRHn-9kVj6M6-12">
+          <mxGeometry y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3hhNd9YRHn-9kVj6M6-7" value=".finally" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="XS3hhNd9YRHn-9kVj6M6-12">
+          <mxGeometry x="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3hhNd9YRHn-9kVj6M6-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="XS3hhNd9YRHn-9kVj6M6-12" source="XS3hhNd9YRHn-9kVj6M6-1" target="XS3hhNd9YRHn-9kVj6M6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3hhNd9YRHn-9kVj6M6-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="XS3hhNd9YRHn-9kVj6M6-12" source="XS3hhNd9YRHn-9kVj6M6-2" target="XS3hhNd9YRHn-9kVj6M6-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
