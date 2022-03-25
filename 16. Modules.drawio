@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T12:35:29.179Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="G9ZV2LZAUy1TJ00n_Xg6" version="17.2.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-03-25T12:40:59.874Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="rMldcxTSdG67HtOgu5Ej" version="17.2.2" type="github" pages="7">
   <diagram id="xR62OvESss--zE8Bf27k" name="Why we need module">
     <mxGraphModel dx="1130" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -159,7 +159,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EDYBhZlz7gTLzcSQ7jbA" name="ES6 Modules">
-    <mxGraphModel dx="3715" dy="1155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3283" dy="2007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -213,6 +213,9 @@
         </mxCell>
         <mxCell id="MU2DIB1ypzOCpfRLJ2Zy-20" value="npc.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="255" y="800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MU2DIB1ypzOCpfRLJ2Zy-21" value="In able to use module" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="-190" width="560" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
