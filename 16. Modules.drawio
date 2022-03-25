@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T06:26:47.367Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="0fKtvyVtfjlIardcbCi1" version="17.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-25T10:17:58.780Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="yqpYYm8Iq1xW3SJyJSRp" version="17.2.2" type="github" pages="2">
   <diagram id="xR62OvESss--zE8Bf27k" name="Why we need module">
     <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -43,10 +43,10 @@
           <mxGeometry x="390" y="90" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AFi48TNqJmw4KUPueMA9-5" value="This is jQuery was using" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="507" y="1050" width="370" height="80" as="geometry" />
+          <mxGeometry x="475" y="1020" width="370" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AFi48TNqJmw4KUPueMA9-6" value="By using IIFE we able to create a function scope to mimic the module scope" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="270" y="884" width="380" height="190" as="geometry" />
+          <mxGeometry x="470" y="867" width="380" height="190" as="geometry" />
         </mxCell>
         <mxCell id="AFi48TNqJmw4KUPueMA9-7" value="We return anything we want the outside to access other thing is private" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="1320" y="467" width="380" height="190" as="geometry" />
@@ -67,7 +67,13 @@
           <mxGeometry x="2220" y="360" width="941" height="335" as="geometry" />
         </mxCell>
         <mxCell id="AFi48TNqJmw4KUPueMA9-14" value="It like React Component, we just care about what we have inside the function, if we don&#39;t have, then just pass them and make a copy if needed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="1">
-          <mxGeometry x="2400" y="695" width="660" height="200" as="geometry" />
+          <mxGeometry x="2390" y="667" width="660" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AFi48TNqJmw4KUPueMA9-15" value="Avoid modify anything outside of the module, again it will not Pure and the code will messy" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2450.5" y="840" width="480" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="AFi48TNqJmw4KUPueMA9-16" value="We can have multiple engineer working on multiple module without breaking the application, as long as we don&#39;t change too much what we export as public&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="1390" width="810" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
