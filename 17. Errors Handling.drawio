@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T13:33:11.196Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" version="17.2.2" etag="e1xNj-da6_CEj-sEOhLD" type="github"><diagram id="COiALNaxkaYotS7IkJd5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-25T13:39:30.619Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="j76ffJ5TaR00BNQmckr-" version="17.2.2" type="github">
+  <diagram id="COiALNaxkaYotS7IkJd5" name="Why Errors Handling">
+    <mxGraphModel dx="1108" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6mXv91xbvfu93Br_ICdN-1" value="Why Errors Handling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=34;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="450" y="220" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6mXv91xbvfu93Br_ICdN-4" value="&lt;span style=&quot;font-style: italic&quot;&gt;You shouldn&#39;t think your code is perfect and Errors Handling just make the code harder to read&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="310" width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6mXv91xbvfu93Br_ICdN-5" value="&lt;i&gt;Don&#39;t think the error is a mistake, think it as a future, if we know how to handle them, it will easier to search for the code and fix&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="690" y="310" width="360" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
