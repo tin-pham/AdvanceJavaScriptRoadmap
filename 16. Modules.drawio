@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T12:18:28.590Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="hbzig6S_KzUlq_fM8f4L" version="17.2.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-25T12:35:29.179Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="G9ZV2LZAUy1TJ00n_Xg6" version="17.2.2" type="github" pages="7">
   <diagram id="xR62OvESss--zE8Bf27k" name="Why we need module">
-    <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1130" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,10 +151,69 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2lC5a4TfOiSrtbXFaCAh" name="UMD">
-    <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1130" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EDYBhZlz7gTLzcSQ7jbA" name="ES6 Modules">
+    <mxGraphModel dx="3715" dy="1155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MU2DIB1ypzOCpfRLJ2Zy-1" value="ES6 Modules" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="580" y="170" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MU2DIB1ypzOCpfRLJ2Zy-2" value="Module now being&amp;nbsp;standardizing because JavaScript no longer the web-specific language, it can run on mobile, desktop, server, IoT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="345" y="220" width="880" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MU2DIB1ypzOCpfRLJ2Zy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;startArrow=none;" edge="1" parent="1" source="MU2DIB1ypzOCpfRLJ2Zy-8" target="MU2DIB1ypzOCpfRLJ2Zy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MU2DIB1ypzOCpfRLJ2Zy-4" value="export default fight;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="20" y="500" width="530" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MU2DIB1ypzOCpfRLJ2Zy-5" value="import module1 from &#39;npc.js&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="500" width="530" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MU2DIB1ypzOCpfRLJ2Zy-8" value="You can rename the module if you &#39;export default&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="640" y="515" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MU2DIB1ypzOCpfRLJ2Zy-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;endArrow=none;" edge="1" parent="1" source="MU2DIB1ypzOCpfRLJ2Zy-4" target="MU2DIB1ypzOCpfRLJ2Zy-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="530" as="sourcePoint" />
+            <mxPoint x="1170" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MU2DIB1ypzOCpfRLJ2Zy-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;startArrow=none;" edge="1" parent="1" source="MU2DIB1ypzOCpfRLJ2Zy-16" target="MU2DIB1ypzOCpfRLJ2Zy-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MU2DIB1ypzOCpfRLJ2Zy-14" value="export { fight, heal } ;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="20" y="720" width="530" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MU2DIB1ypzOCpfRLJ2Zy-15" value="import { fight, heal } from &#39;npc.js&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="720" width="690" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MU2DIB1ypzOCpfRLJ2Zy-16" value="You can export and import multiple thing, but you must name exactly" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="640" y="735" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MU2DIB1ypzOCpfRLJ2Zy-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;endArrow=none;" edge="1" parent="1" source="MU2DIB1ypzOCpfRLJ2Zy-14" target="MU2DIB1ypzOCpfRLJ2Zy-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="750" as="sourcePoint" />
+            <mxPoint x="1170" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MU2DIB1ypzOCpfRLJ2Zy-18" value="You can just &#39;export default&#39; one time per file" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="450" width="560" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="MU2DIB1ypzOCpfRLJ2Zy-19" value="npc.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="260" y="580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MU2DIB1ypzOCpfRLJ2Zy-20" value="npc.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="255" y="800" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
