@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T12:13:21.269Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="qErJyHNjbjnGVAVbbnYe" version="17.2.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-25T12:18:28.590Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="hbzig6S_KzUlq_fM8f4L" version="17.2.2" type="github" pages="6">
   <diagram id="xR62OvESss--zE8Bf27k" name="Why we need module">
     <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -139,6 +139,22 @@
         <mxCell id="g-RrQ4MACyDKF6UgpAIA-6" value="Module Bundlers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1540" y="-100" width="1000" height="10" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="daLbksiYWHpfilpnQn0W" name="AMD, requireJS">
+    <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2lC5a4TfOiSrtbXFaCAh" name="UMD">
+    <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
