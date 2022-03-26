@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T04:30:36.620Z" agent="5.0 (X11)" etag="U7JXpjNMsgs14xxokLIM" version="17.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-26T04:58:20.667Z" agent="5.0 (X11)" etag="tUG5Zi1X__q9Iv-xLNnt" version="17.2.3" type="github" pages="4">
   <diagram id="COiALNaxkaYotS7IkJd5" name="Why Errors Handling">
     <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="AkrASl9X_fwlE1g8BWnz" name="Page-2">
+  <diagram id="AkrASl9X_fwlE1g8BWnz" name="Throw">
     <mxGraphModel dx="2248" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -36,6 +36,46 @@
         <mxCell id="6G5NS1hq_WpYk4dcPxY1-7" value="Error is ideal for this because throw is use for debugging and handling Error" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="185" y="530" width="480" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="suCI82SeQPXa2IQxq9x-" name="How error can be handle">
+    <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LUFC1o8WCAyEAoJrJzKI-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="160" y="170" width="600" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="LUFC1o8WCAyEAoJrJzKI-1" value="ERROR!" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="360" y="180" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LUFC1o8WCAyEAoJrJzKI-2" value="catch" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LUFC1o8WCAyEAoJrJzKI-3" value="catch" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="360" y="380" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LUFC1o8WCAyEAoJrJzKI-4" value="onerror()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="360" y="500" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LUFC1o8WCAyEAoJrJzKI-5" value="Browser" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="610" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LUFC1o8WCAyEAoJrJzKI-6" value="process.on(&#39;uncaughException&#39;)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="170" y="680" width="600" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="LUFC1o8WCAyEAoJrJzKI-7" value="Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="840" y="745" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Sw2LlV8-f5Hn7qxdCbYf" name="try..catch">
+    <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
