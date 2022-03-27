@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T11:13:55.988Z" agent="5.0 (X11)" etag="67T3B4VNmSpKTLW_ZDF3" version="17.2.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-27T11:24:33.306Z" agent="5.0 (X11)" etag="YPk2Nqov4btwHCJkMGpq" version="17.2.4" type="github" pages="6">
   <diagram id="mwZqCidHkItrIQmeRv9h" name="Single Threaded">
     <mxGraphModel dx="297" dy="3273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -12,6 +12,9 @@
         </mxCell>
         <mxCell id="reKd_I6qiyCTW8mXLs29-4" value="&lt;span style=&quot;font-size: 25px&quot;&gt;JavaScript&amp;nbsp; is single-threaded (have 1 Call Stack) can be non-blocking&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fontStyle=2" parent="1" vertex="1">
           <mxGeometry x="2440" y="-1855" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eE7sxoJcTa20h0eq7EoH-1" value="What run in multiple thread belong to the API that handle async task" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2495" y="-1750" width="380" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -134,7 +137,7 @@
             <mxPoint x="390" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kfw47t9X_RrKeScHyaI5-1" value="Code that is running" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="1">
+        <mxCell id="Kfw47t9X_RrKeScHyaI5-1" value="Code that is running in the main thread" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="310" y="660" width="340" height="30" as="geometry" />
         </mxCell>
       </root>
