@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T11:24:33.306Z" agent="5.0 (X11)" etag="YPk2Nqov4btwHCJkMGpq" version="17.2.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-28T05:18:02.202Z" agent="5.0 (X11)" etag="AmShny1h2TBQwZLUF6kV" version="17.2.4" type="github" pages="6">
   <diagram id="mwZqCidHkItrIQmeRv9h" name="Single Threaded">
-    <mxGraphModel dx="297" dy="3273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-302" dy="2951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="XhvQx9Kssi3j1wy0ObFi-3" value="JavaScript design this way to only deal with 1 thing at a time and prevent &lt;b style=&quot;font-size: 25px;&quot;&gt;&lt;i style=&quot;font-size: 25px;&quot;&gt;DeadLock&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="2977.2799999999997" y="-1920" width="380" height="130" as="geometry" />
+          <mxGeometry x="2495" y="-1770" width="380" height="130" as="geometry" />
         </mxCell>
         <mxCell id="reKd_I6qiyCTW8mXLs29-1" value="Single Threaded" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=35;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2470" y="-1930" width="430" height="30" as="geometry" />
@@ -13,8 +13,11 @@
         <mxCell id="reKd_I6qiyCTW8mXLs29-4" value="&lt;span style=&quot;font-size: 25px&quot;&gt;JavaScript&amp;nbsp; is single-threaded (have 1 Call Stack) can be non-blocking&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fontStyle=2" parent="1" vertex="1">
           <mxGeometry x="2440" y="-1855" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eE7sxoJcTa20h0eq7EoH-1" value="What run in multiple thread belong to the API that handle async task" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="2495" y="-1750" width="380" height="120" as="geometry" />
+        <mxCell id="eE7sxoJcTa20h0eq7EoH-1" value="What run in multiple thread belong to the API that handle async task" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="2990" y="-1850" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFuWSTBF838VtGi_8FfH-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.stack.imgur.com/EtiYI.png;" vertex="1" parent="1">
+          <mxGeometry x="2425" y="-1600" width="520" height="392" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -35,6 +38,9 @@
         </mxCell>
         <mxCell id="cXdR5EQTNu6Ets_Pzifi-3" value="What if we have one code that take very long time, if this is in the browser, it will freeze until the task done" style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="6A8IXtTka54R6Po469tn-1" vertex="1">
           <mxGeometry x="1169" y="-960" width="380" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="i3VMlriLDgTGm-czu__N-0" value="because it Single Theaded" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="6A8IXtTka54R6Po469tn-1">
+          <mxGeometry x="1460" y="-1390" width="380" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -116,28 +122,28 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Sc0JtUKjEd0NZcUmP_Ye" name="Process">
-    <mxGraphModel dx="1165" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Yv6lDrxpJlYKgFvFhYzX-1" value="Process" style="swimlane;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontStyle=1;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="Yv6lDrxpJlYKgFvFhYzX-1" value="Process" style="swimlane;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontStyle=1;fontSize=25;" parent="1" vertex="1">
           <mxGeometry x="140" y="310" width="730" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="Yv6lDrxpJlYKgFvFhYzX-2" value="code" style="whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="Yv6lDrxpJlYKgFvFhYzX-1">
+        <mxCell id="Yv6lDrxpJlYKgFvFhYzX-2" value="code" style="whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" parent="Yv6lDrxpJlYKgFvFhYzX-1" vertex="1">
           <mxGeometry x="40" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Yv6lDrxpJlYKgFvFhYzX-4" value="Main Thread" style="swimlane;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="Yv6lDrxpJlYKgFvFhYzX-1">
+        <mxCell id="Yv6lDrxpJlYKgFvFhYzX-4" value="Main Thread" style="swimlane;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" parent="Yv6lDrxpJlYKgFvFhYzX-1" vertex="1">
           <mxGeometry x="250" y="65" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="Yv6lDrxpJlYKgFvFhYzX-5" value="Call Stack" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="Yv6lDrxpJlYKgFvFhYzX-4">
+        <mxCell id="Yv6lDrxpJlYKgFvFhYzX-5" value="Call Stack" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" parent="Yv6lDrxpJlYKgFvFhYzX-4" vertex="1">
           <mxGeometry x="40" y="35" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Yv6lDrxpJlYKgFvFhYzX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;" edge="1" parent="1" source="Yv6lDrxpJlYKgFvFhYzX-2">
+        <mxCell id="Yv6lDrxpJlYKgFvFhYzX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;" parent="1" source="Yv6lDrxpJlYKgFvFhYzX-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="390" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kfw47t9X_RrKeScHyaI5-1" value="Code that is running in the main thread" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="1">
+        <mxCell id="Kfw47t9X_RrKeScHyaI5-1" value="Code that is running in the main thread" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" parent="1" vertex="1">
           <mxGeometry x="310" y="660" width="340" height="30" as="geometry" />
         </mxCell>
       </root>
